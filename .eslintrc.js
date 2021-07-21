@@ -15,7 +15,7 @@ module.exports = {
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 
         indent: 'off',
-        'vue/script-indent': ['error', 4, { baseIndent: 0 }],
+        'vue/script-indent': ['error', 2, { baseIndent: 0 }],
 
         'no-multiple-empty-lines': 0,
 
