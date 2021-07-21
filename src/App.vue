@@ -21,20 +21,13 @@
 </template>
 
 <style lang="scss">
-#app {
-  font-family: verdana;
-  text-align: center;
-}
-
-.navbar {
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    text-decoration: none;
-
-    &.router-link-exact-active {
-      color: #42b983;
-      // color: $primary; // TODO!
+.v-application {
+  .navbar {
+    a {
+      color: var(--v-primary-base);
+      &.router-link-exact-active {
+        color: $navbar-link;
+      }
     }
   }
 }
