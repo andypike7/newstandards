@@ -1,3 +1,6 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
 import cssVars from 'css-vars-ponyfill';
 
 import Vue from 'vue';
